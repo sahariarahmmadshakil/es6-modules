@@ -16,3 +16,19 @@
 // console.log(output);
 
 // JavaScript Turnary Operator
+
+// normal example
+// const num1=10;
+// if(num1==10){
+//     console.log('true');
+// }else{
+//     console.log('false')
+// }
+
+// (num1==10)?console.log('true'):console.log('false');
+// finding big number from three numbers by turnary operator
+
+const a=10;
+const b=50;
+const c=30;
+(a>b && a>c)? console.log('A is big'):(b>c && b>a)?console.log('B is Big'):console.log('C is Big');
