@@ -45,9 +45,52 @@
 // console.log(arr1);
 // console.log(arr2);
 
-const arr = [1,2,3,4,5,6,7];
-const [first,second,third,...remaining]=arr;
-console.log(first);
-console.log(second);
-console.log(third);
-console.log(remaining);
+// const arr = [1,2,3,4,5,6,7];
+// const [first,second,third,...remaining]=arr;
+// console.log(first);
+// console.log(second);
+// console.log(third);
+// console.log(remaining);
+
+// object spreading
+
+// creating an object 
+// const element = {
+//     name:'mobile',
+//     brand: "samsung",
+//     model: 's8+',
+//     price:20000
+// };
+
+// const priceCount=element['price'];
+// console.log(priceCount);
+// const dam='price';
+// const damValue=element[dam];
+// console.log(damValue);
+// const bname=Object.keys(element);
+// const binfo=Object.values(element);
+// // console.log(bname);
+// // console.log(binfo);
+// for(let i = 0;i<bname.length;i++){
+//     let newElement=[];
+//     newElement=bname[i];
+//     console.log(newElement);
+// }
+
+const element = {
+    name:'mobile',
+    brand: "samsung",
+    model: 's8+',
+    price:20000,
+    waranty: '2years',
+    color:["red","blue","green","offwhite"]
+};
+
+const {color}=element;
+const [firstColor]=color;
+console.log(firstColor);
+// const element2={...element}
+// element.battery='2500mpr';
+//  const {name,brand,model:changeModelName,...badbaki}=element;
+//  console.log(element);
+//  console.log(element2);
