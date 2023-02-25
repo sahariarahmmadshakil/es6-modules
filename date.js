@@ -77,20 +77,31 @@
 //     console.log(newElement);
 // }
 
-const element = {
-    name:'mobile',
-    brand: "samsung",
-    model: 's8+',
-    price:20000,
-    waranty: '2years',
-    color:["red","blue","green","offwhite"]
-};
+// const element = {
+//     name:'mobile',
+//     brand: "samsung",
+//     model: 's8+',
+//     price:20000,
+//     waranty: '2years',
+//     color:["red","blue","green","offwhite"]
+// };
 
-const {color}=element;
-const [firstColor]=color;
-console.log(firstColor);
+// const {color}=element;
+// const [firstColor]=color;
+// console.log(firstColor);
 // const element2={...element}
 // element.battery='2500mpr';
 //  const {name,brand,model:changeModelName,...badbaki}=element;
 //  console.log(element);
 //  console.log(element2);
+
+const student={
+    name:'shakil',
+    age:'25',
+    gender: 'male',
+    dep: 'cse',
+    takenCourse:['calculas','stracture','algarithm']
+}
+const {takenCourse}=student;
+const[first]=takenCourse;
+console.log(first)
