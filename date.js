@@ -137,3 +137,25 @@
 // console.log(output)
 
 // console.log(person.education.subject[0]);
+
+
+// most important optional chaining 
+
+// const bou={
+//     name: 'munia',
+//     age:19,
+//     contact:{
+//         phone:016363636,
+//         email:'ajaiara@email.com'
+//     },
+//     ovvas:{
+//         ragi:'true',
+//         jinisVangchur: 'false',
+//         dress:{
+//             sharee: 'tamon pore na',
+//             threePice:'sob somai pore',
+//             jins: 'majhe majhe pore'
+//         }
+//     }
+// }
+// console.log(bou?.ovvas?.ghoree?.paijama);
