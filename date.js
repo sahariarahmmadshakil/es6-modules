@@ -95,13 +95,45 @@
 //  console.log(element);
 //  console.log(element2);
 
-const student={
-    name:'shakil',
-    age:'25',
-    gender: 'male',
-    dep: 'cse',
-    takenCourse:['calculas','stracture','algarithm']
-}
-const {takenCourse}=student;
-const[first]=takenCourse;
-console.log(first)
+// const student={
+//     name:'shakil',
+//     age:'25',
+//     gender: 'male',
+//     dep: 'cse',
+//     takenCourse:['calculas','stracture','algarithm']
+// }
+// const {takenCourse}=student;
+// const[first]=takenCourse;
+// console.log(first)
+
+// accesing object 
+// const person = {
+//     name: 'shakil',
+//     age: 23,
+//     contact: {
+//         phone: '01634676787',
+//         email: 'info.sashakil@gmail.com'
+
+//     },
+//     education: {
+//         versity: 'eastern University',
+//         subject: [
+//             {
+//                 sub1: 'bangla', marks: 40
+//             },
+//             {
+//                 sub2: 'calculas', marks: 50
+//             },
+//             {
+//                 sub3: 'stastics', marks: 60
+//             }
+//         ]
+//     }
+// }
+// const age=person.age;
+// const secondRules=person['education']
+// const thirdRules = 'education'
+// const output = person[thirdRules];
+// console.log(output)
+
+// console.log(person.education.subject[0]);
