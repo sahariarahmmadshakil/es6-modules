@@ -7,7 +7,7 @@
 // }
 
 
-//Example of Java Script template string 
+// Example of Java Script template string 
 // const nm = 'shakil'
 // const age = 20;
 // const output=`My name is ${nm}
@@ -139,7 +139,7 @@
 // console.log(person.education.subject[0]);
 
 
-// most important optional chaining 
+// // most important optional chaining 
 
 // const bou={
 //     name: 'munia',
@@ -159,3 +159,13 @@
 //     }
 // }
 // console.log(bou?.ovvas?.ghoree?.paijama);
+
+// function with deafult peramitter 
+
+function add(x=0,y=0){
+    console.log(x,y)
+    const total = x+y;
+    return total;
+}
+
+console.log(add(10));
