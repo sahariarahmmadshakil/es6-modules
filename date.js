@@ -181,24 +181,45 @@
 // arrow function
 // declear 
 
-const sum =(a,b)=> a+b;
-console.log(sum(20,30));
-const name =()=>console.log('shakil');
-const name2=myName=>{
-    return myName;
-}
-console.log(name2('Munia'))
+// const sum =(a,b)=> a+b;
+// console.log(sum(20,30));
+// const name =()=>console.log('shakil');
+// const name2=myName=>{
+//     return myName;
+// }
+// console.log(name2('Munia'))
 
-const total = (n1,n2,n3)=>{
-    if(n1>n2 && n1>n3){
-        return ('N1 is Big');
-    }
-    else if(n2>n1 && n2>n3){
-        return ('N2 is Big');
-    }else{
-        return ('N3 is big')
-    }
+// const total = (n1,n2,n3)=>{
+//     if(n1>n2 && n1>n3){
+//         return ('N1 is Big');
+//     }
+//     else if(n2>n1 && n2>n3){
+//         return ('N2 is Big');
+//     }else{
+//         return ('N3 is big')
+//     }
     
-}
+// }
 
-console.log(total(500,30,80));
+// console.log(total(500,30,80));
+// const arr =[10,200,35,400,54,600,77];
+// const newArr=arr.map((number)=>number);
+// console.log(newArr)
+
+// const filters = arr.filter((n)=>n>=100
+// );
+// console.log(filters);
+// finding scis student names 
+const students=[
+    {name:'shakil', marks:50, avg: 50},
+    {name:'munia', marks:40, avg: 45},
+    {name:'suvo', marks:30, avg: 33},
+    {name:'habu', marks:55, avg: 22},
+    {name:'kabu', marks:56, avg: 55},
+    {name:'nebu', marks:60, avg: 53},
+    {name:'sobu', marks:20, avg: 50},
+]
+
+const scic=students.filter((m)=>m.marks>=50 && m.avg>=50);
+const chanceStd=scic.map((names)=>names.name);
+console.log(chanceStd);
