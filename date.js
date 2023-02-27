@@ -169,7 +169,7 @@
 // }
 
 // console.log(add(10));
- // annonymus function 
+// annonymus function 
 
 
 
@@ -198,7 +198,7 @@
 //     }else{
 //         return ('N3 is big')
 //     }
-    
+
 // }
 
 // console.log(total(500,30,80));
@@ -210,16 +210,61 @@
 // );
 // console.log(filters);
 // finding scis student names 
-const students=[
-    {name:'shakil', marks:50, avg: 50},
-    {name:'munia', marks:40, avg: 45},
-    {name:'suvo', marks:30, avg: 33},
-    {name:'habu', marks:55, avg: 22},
-    {name:'kabu', marks:56, avg: 55},
-    {name:'nebu', marks:60, avg: 53},
-    {name:'sobu', marks:20, avg: 50},
-]
+// const students=[
+//     {name:'shakil', marks:50, avg: 50},
+//     {name:'munia', marks:40, avg: 45},
+//     {name:'suvo', marks:30, avg: 33},
+//     {name:'habu', marks:55, avg: 22},
+//     {name:'kabu', marks:56, avg: 55},
+//     {name:'nebu', marks:60, avg: 53},
+//     {name:'sobu', marks:20, avg: 50},
+// ]
 
-const scic=students.filter((m)=>m.marks>=50 && m.avg>=50);
-const chanceStd=scic.map((names)=>names.name);
-console.log(chanceStd);
+// const scic=students.filter((m)=>m.marks>=50 && m.avg>=50);
+// const chanceStd=scic.map((names)=>names.name);
+// console.log(chanceStd);
+
+// const students = [
+//     {
+//         student1: {
+//             name: 'abul',
+//             age: '17',
+//             gender: 'male',
+//             education: {
+//                 class: 7,
+//                 subject: ['bangla', 'english', 'math']
+//             }
+//         },
+//         student2: {
+//             name: 'kabul',
+//             age: '19',
+//             gender: 'male',
+//             education: {
+//                 class: 9,
+//                 subject: ['math', 'english', 'socialScience']
+//             }
+//         },
+//         student3: {
+//             name: 'saleha',
+//             age: '16',
+//             gender: 'female',
+//             education: {
+//                 class: 10,
+//                 subject: ['krishi', 'science', 'math']
+//             }
+//         }
+//     }
+// ];
+// students.map((student)=>{
+// for(let i in student){
+//     const {name,age,education}=student[i];
+//     const {subject}=education;
+    
+//    const information = `
+//    My name is: ${name}
+//    My age is: ${age}
+//    My Subject is: ${subject.map((sub)=>sub)}
+//    `
+//     console.log(information);
+// }
+// });
